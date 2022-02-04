@@ -1,0 +1,213 @@
+
+
+
+@media (max-width: 767px) {
+
+    .connect-wallet{
+
+        display: none;
+
+    }
+
+    .open-btn{
+
+        justify-content: flex-end;
+
+    }
+    
+.logo-top {
+      
+    justify-content: flex-start;
+      
+}
+
+.custom-btn {
+ 
+    text-align: center;
+}
+
+.order-xs-1{
+
+order: 1;
+
+}
+
+.order-xs-2{
+order: 2;
+}
+
+.section-two {
+
+    padding: 50px 0;
+
+}
+
+.back-text{
+        
+    display: none;
+
+}
+
+.main-section{
+
+ clip-path: polygon(0% 0%, 100% 0, 100% 95%, 53% 100%, 0 95%);
+ padding: 0 20px;
+}
+
+
+.main-title h1{
+
+font-size: 2rem;
+
+}
+
+.community-section{
+
+padding: 2rem !important;
+
+}
+
+.col-background{
+
+    height: 300px;
+
+}
+
+.roadmap{
+
+    margin: 20px 0 0;
+
+}
+
+.roadmap .step{
+
+    padding: 20px 20px;
+
+}
+
+.roadmap .line {
+   
+    left: 32px;
+}
+
+.roadmap .details{
+    
+    margin-left: 20px;
+
+}
+
+.details ul {
+  
+    line-height: 35px;
+    letter-spacing: 0px;
+    padding-left: 10px;
+  
+}
+
+.dual-title h3{
+
+    font-size: 2rem;
+
+}
+
+.about-box{
+
+    margin-bottom: 50px;
+
+}
+
+.dual-title h6{
+
+    padding: 0;
+
+}
+
+.footer-menu{
+
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-menu li{
+
+    margin: 10px 0;
+
+}
+
+footer {
+
+    padding: 2rem 0;
+
+}
+
+}
+
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .order-xs-1{
+
+        order: 1;
+        
+        }
+        
+        .order-xs-2{
+        order: 2;
+    }
+    .col-background{
+
+        height: 300px;
+    
+    }
+    .back-text h2 {
+
+        font-size: 7rem;
+
+    }
+
+    .dual-title h6 {
+
+        padding: 0;
+    }
+
+    .dual-title h3{
+
+        font-size: 2rem;
+
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+
+    .main-section{
+
+        clip-path: polygon(0% 0%, 100% 0, 100% 85%, 53% 100%, 0 85%);
+    }
+    
+
+    .roadmap {
+
+        margin: 0;
+
+    }
+
+    .about-box {
+     
+        height: 270px;
+    }   
+    
+    .image-box{
+
+
+        height: 250px;
+
+    }
+
+}
+
+@media (max-width: 1440px) and (min-width: 1200px) {
+
+
+}
