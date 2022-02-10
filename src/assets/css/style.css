@@ -457,49 +457,69 @@ transform: scale(1);
 }
 
 
-.image-box {
-    position: relative;
-    margin-bottom: 20px;
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.team-box {
+    background-color: transparent;
     height: 300px;
-    background-color: var(--secondary);
+    perspective: 1000px;
   }
   
-.image {
-    display: block;
+  /* This container is needed to position the front and back side */
+  .team-box-inner {
+    position: relative;
     width: 100%;
-    height: auto;
-}
-  
-.overlay
-   {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 30%;
-    width: 100%;
-    transition: 0.5s ease;
-    background: var(--secondary);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-}
-  
-  
-
-.image-box:hover .overlay {
-    opacity: 1;
     height: 100%;
-    flex-direction: column;
-    justify-content: center;
-}
- 
-.overlay i{
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .team-box:hover .team-box-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  
+  /* Position the front and back side */
+  .team-box-front, .team-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .team-box-front {
+    background-color: var(--dark);
+    color: black;
+    overflow: hidden;
+  }
 
-    color:var(--light);
-    font-size: 25px;
-    margin: 10px 0;
-}
+  .team-box-front img{
+
+    height: inherit;
+    width: auto;
+
+  }
+  
+  /* Style the back side */
+  .team-box-back {
+    background-color: var(--primary);
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    flex-direction: column;
+  }
+
+  .team-box-back p{
+    font-weight: 700;
+  }
+
+
+
 /* .faq-list{
 
     padding: 0;
@@ -643,6 +663,7 @@ font-size: 20px;
 .footer-social li{
 
     margin:0 20px;
+    color: var(--disable);
 
 }
 

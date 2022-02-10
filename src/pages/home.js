@@ -7,6 +7,9 @@ import Faq from '../components/faq';
 import { Link } from "react-router-dom";
 import nft1 from "../assets/images/nft1.png";
 import team1 from "../assets/images/Team1.jpg";
+import team2 from "../assets/images/Team2.jpg";
+import team3 from "../assets/images/Team3.jpg";
+import team4 from "../assets/images/Team4.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -200,7 +203,7 @@ function Home(props){
 
                     </div>
 
-                    <Link to={'/'} className="custom-btn primary-btn">Join Discord</Link>
+                    <a href="https://discord.gg/vnPEQtzSkE" target='_blank' className="custom-btn primary-btn">Join Discord</a>
 
                 </Col>
 
@@ -387,71 +390,84 @@ function Home(props){
 
             <Row className="no-gutter">
 
-                <Col lg={3} md={6} data-aos="fade-up">
+                <Col lg={6} md={6} xl={3} data-aos="fade-up">
         
-                    <div className="image-box">
-                        <img src={team1} alt="Avatar" className="image" />
-                        <div className="overlay">
+                    <div class="team-box">
 
-                        <div>
-                            <h3>Brad Stein</h3>
-                            <p>The Architect</p>
+                        <div class="team-box-inner">
+                            <div class="team-box-front">
+                            
+                            <img src={team1} />
+                            
+                            </div>
+                            <div class="team-box-back">
+                                <h3 className="mb-3">Sarmad al-zadjaly</h3>
+                                <p>Co-Founder GyrFalcon and serial entrepreneur in multiple industries such as last mile,
+                                    F&B, events, sports and tourism. Over 15 years experience in start-ups</p>
+                            </div>
                         </div>
-
-                        <Link to={'/'}><i class="fa-brands fa-instagram"></i></Link>
-                        </div>
+                        
                     </div>
 
                 </Col>
 
-                <Col lg={3} md={6} data-aos="fade-up">
+                <Col lg={6} md={6} xl={3} data-aos="fade-up">
         
-                    <div className="image-box">
-                        <img src={team1} alt="Avatar" className="image" />
-                        <div className="overlay">
+                <div class="team-box">
 
-                        <div>
-                            <h3>Brad Stein</h3>
-                            <p>The Architect</p>
+                    <div class="team-box-inner">
+                        <div class="team-box-front">
+                        
+                        <img src={team2} />
+                        
+                        </div>
+                        <div class="team-box-back">
+                            {/* <h3 className="mb-3">Sarmad al-zadjaly</h3> */}
+                            <p>C2T is an entrepreneurial driven marketing guru. She cofounded her clothing brand “detanios” with her siblings. She has an artistic eye and creative mind; she’s a visionary business enthusiast that believes in the power of knowledge, passion and determination.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                </Col>
+
+                <Col lg={6} md={6} xl={3} data-aos="fade-up">
+                        
+                    <div class="team-box">
+
+                        <div class="team-box-inner">
+                            <div class="team-box-front">
+                            
+                            <img src={team3} />
+                            
+                            </div>
+                            <div class="team-box-back">
+                                <h3 className="mb-3">Kevin Hani</h3>
+                                <p>Co-Founder GyrFalcon and also founded startups in the blockchain and tourism industries. Over 3 years of experience in AI and Machine Learning. EU Tourism Award Winner 2021 and won many startup competitions.</p>
+                            </div>
                         </div>
 
-                        <Link to={'/'}><i class="fa-brands fa-instagram"></i></Link>
-                        </div>
                     </div>
 
                 </Col>
 
-                <Col lg={3} md={6} data-aos="fade-up">
+                <Col lg={6} md={6} xl={3} data-aos="fade-up">
                         
-                        <div className="image-box">
-                            <img src={team1} alt="Avatar" className="image" />
-                            <div className="overlay">
+                <div class="team-box">
 
-                            <div>
-                                <h3>Brad Stein</h3>
-                                <p>The Architect</p>
-                            </div>
-
-                            <Link to={'/'}><i class="fa-brands fa-instagram"></i></Link>
-                            </div>
-                        </div>
-
-                </Col>
-
-                <Col lg={3} md={6} data-aos="fade-up">
+                <div class="team-box-inner">
+                    <div class="team-box-front">
                         
-                        <div className="image-box">
-                            <img src={team1} alt="Avatar" className="image" />
-                            <div className="overlay">
-
-                            <div>
-                                <h3>Brad Stein</h3>
-                                <p>The Architect</p>
-                            </div>
-
-                            <Link to={'/'}><i class="fa-brands fa-instagram"></i></Link>
-                            </div>
+                        <img src={team4} />
+                        
                         </div>
+                        <div class="team-box-back">
+                            <h3 className="mb-3">Anthony </h3>
+                            <p></p>
+                        </div>
+                </div>
+
+                </div>
 
                 </Col>
 
@@ -518,7 +534,7 @@ function Home(props){
                 
                     <h3>I GUESS WHAT WE ARE TRYING TO SAY IS THAT YOU SHOULD JOIN OUR DISCORD.</h3>
 
-                    <Link to={'/'} className="custom-btn primary-btn mt-5">Join Discord</Link>
+                    <a href="https://discord.gg/vnPEQtzSkE" target='_blank' className="custom-btn primary-btn mt-5">Join Discord</a>
                         
                 </div>
 

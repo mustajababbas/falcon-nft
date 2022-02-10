@@ -155,11 +155,15 @@ function Header(props){
 
                <ul className="header-social">
                   <li>
-                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="https://twitter.com/gyrfalconNft" target='_blank'><i class="fa-brands fa-twitter"></i></a>
                   </li>
 
                   <li>
-                     <a href="#"><i class="fa-brands fa-discord"></i></a>
+                     <a href="https://www.instagram.com/gyrfalcon.nft" target='_blank'><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+
+                  <li>
+                     <a href="https://discord.gg/vnPEQtzSkE" target='_blank'><i class="fa-brands fa-discord"></i></a>
                   </li>
 
                </ul>

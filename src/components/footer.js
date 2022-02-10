@@ -58,7 +58,7 @@ function Footer(){
 
                         
                             <li>
-                                <Link to={'/'}>GYRFALCONS 2022 - ALL RIGHTS RESERVED</Link>
+                               GYRFALCONS 2022 - ALL RIGHTS RESERVED
                             </li> 
 
                             <li>
@@ -66,7 +66,7 @@ function Footer(){
                             </li> 
 
                             <li>
-                                <Link to={'/'}>Design By Pluton</Link>
+                                <a href="https://pluton.ltd" target='_blank'>Design By Pluton</a>
                             </li> 
                         
 
@@ -75,17 +75,17 @@ function Footer(){
                     <ul className="footer-social">
 
                         
-                            <li>
-                                <Link to={'/'}><i class="fa-brands fa-telegram"></i></Link>
-                            </li> 
+                    <li>
+                      <a href="https://twitter.com/gyrfalconNft" target='_blank'><i class="fa-brands fa-twitter"></i></a>
+                    </li>
 
-                            <li>
-                                <Link to={'/'}><i class="fa-brands fa-instagram"></i></Link>
-                            </li> 
+                    <li>
+                      <a href="https://www.instagram.com/gyrfalcon.nft" target='_blank'><i class="fa-brands fa-instagram"></i></a>
+                    </li>
 
-                            <li>
-                                <Link to={'/'}><i class="fa-brands fa-twitter"></i></Link>
-                            </li> 
+                    <li>
+                      <a href="https://discord.gg/vnPEQtzSkE" target='_blank'><i class="fa-brands fa-discord"></i></a>
+                    </li>
                         
 
                     </ul>

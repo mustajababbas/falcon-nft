@@ -141,6 +141,13 @@ footer {
 
 }
 
+.team-box{
+
+    margin-bottom: 40px;
+
+}
+
+
 }
 
 
@@ -177,6 +184,12 @@ footer {
         font-size: 2rem;
 
     }
+
+    .team-box{
+
+        margin-bottom: 40px;
+    
+    }
 }
 
 @media (max-width: 1200px) and (min-width: 991px) {
@@ -203,6 +216,12 @@ footer {
 
         height: 250px;
 
+    }
+
+    .team-box{
+
+        margin-bottom: 40px;
+    
     }
 
 }
