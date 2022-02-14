@@ -57,9 +57,6 @@ function Header(props){
   function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
 
-
-
-
  }
 
     return(
